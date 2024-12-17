@@ -88,7 +88,7 @@ namespace EmployeeAdminPortal.Controllers
             dbContext.Employees.Remove(employee);
             dbContext.SaveChanges();
 
-            return Ok();
+            return Ok("Employee Deleted Successfully");
         }
     }
 }
